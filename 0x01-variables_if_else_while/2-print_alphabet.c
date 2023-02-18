@@ -1,4 +1,4 @@
-#include <stdlio.h>
+#include <stdio.h>
 
 /**
  * main - prints alpha in lower case
