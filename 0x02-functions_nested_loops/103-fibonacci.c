@@ -9,7 +9,7 @@
 int main(void)
 {
 	int i = 0;
-	long j = i, k = 2, sum = k;
+	long j = 1, k = 2, sum = k;
 
 	while (k + j < 4000000)
 	{
@@ -19,6 +19,6 @@ int main(void)
 		j = k - j;
 		++i;
 	}
-	printf("%ld", sum);
+	printf("%ld\n", sum);
 	return (0);
 }
